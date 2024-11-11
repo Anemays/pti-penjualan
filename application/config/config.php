@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 #$config['base_url'] = '';
+$config['base_url']='http://localhost/namaproject';
 $config['base_url'] = ((isset($_SERVER['HTTPS']) &&
     $_SERVER['HTTPS'] == "on") ? "https" : "http");
 $config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
