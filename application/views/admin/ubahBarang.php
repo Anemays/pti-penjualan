@@ -11,19 +11,16 @@
                         <div class="col s12 m12 l12">
                             <div class="card-panel">
                                 <div class="row">
-                                    <form class="col s12" action="<?php echo base_url(); ?>barang/ubah/<?=
-                                                                                                        $dataBarang->idBarang ?>" method="POST">
+                                    <form class="col s12" action="<?php echo base_url(); ?>barang/ubah/<?= $dataBarang->idBarang ?>" method="POST">
                                         <div class="row">
                                             <div class="input-field col s1">
-                                                <input id="name" name="idBarang" type="text" value="<?=
-                                                                                                    $dataBarang->idBarang ?>" required readonly>
+                                                <input id="name" name="idBarang" type="text" value="<?= $dataBarang->idBarang ?>" required readonly>
                                                 <label for="ID" class="active">ID</label>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="input-field col s12">
-                                                <input id="nama" name="namaBarang" type="text" value="<?=
-                                                                                                        $dataBarang->namaBarang ?>" required>
+                                                <input id="nama" name="namaBarang" type="text" value="<?= $dataBarang->namaBarang ?>" required>
                                                 <label for="namaBarang" class="active">Nama Barang</label>
                                             </div>
                                         </div>
@@ -39,8 +36,7 @@
                                                     name="action">Ubah
                                                     <i class="mdi-content-send right"></i>
                                                 </button>
-                                                <a href="<?php echo base_url() ?>barang/dataBarang" class="btn red
-waves-effect waves-light right">Batal
+                                                <a href="<?php echo base_url() ?>barang/dataBarang" class="btn red waves-effect waves-light right">Batal
                                                     <i class="mdi-content-undo right"></i>
                                                 </a>
                                             </div>

@@ -24,13 +24,11 @@
                     <?php } ?>
                     <!-- End Alert -->
                     <h4 class="header2">Penjualan</h4>
-                    <form class="" method="post" enctype="multipart/form-data" action="<?php
-                                                                                        echo base_url(); ?>penjualan/tambahPenjualan">
+                    <form class="" method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>penjualan/tambahPenjualan">
                         <div class="row col s12">
                             <div class="row">
                                 <div class="input-field col s1">
-                                    <input id="idPenjualan" type="text" name="idPenjualan" value="<?=
-                                                                                                    $kodeunik; ?>" readobly>
+                                    <input id="idPenjualan" type="text" name="idPenjualan" value="<?= $kodeunik; ?>" readobly>
                                     <label for="idPenjualan" class="active">No Transaksi</label>
                                 </div>
                             </div>

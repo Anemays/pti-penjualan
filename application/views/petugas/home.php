@@ -13,8 +13,7 @@
                 <div class="icon-block">
                     <a href="<?php echo base_url(); ?>barang/Stok">
                         <h2 class="center light-blue-text"><i
-                                class="mdi-av-playlist-add" style='font-size:
-200px'></i></h2>
+                                class="mdi-av-playlist-add" style='font-size: 200px'></i></h2>
                         <h5 class="center">NAMBAH STOK</h5>
                     </a>
                 </div>
@@ -33,8 +32,7 @@
                     <a href="<?php echo
                                 base_url(); ?>penjualan/tambahPenjualan">
                         <h2 class="center light-blue-text"><i
-                                class="mdi-action-shopping-cart" style='font-size:
-200px'></i></h2>
+                                class="mdi-action-shopping-cart" style='font-size: 200px'></i></h2>
                         <h5 class="center">PENJUALAN</h5>
                     </a>
                 </div>

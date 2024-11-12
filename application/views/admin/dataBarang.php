@@ -28,8 +28,7 @@
                     <?php } ?>
                     <!-- End Alert -->
                     <div class="col s12 m8 l11">
-                        <a href="<?php echo base_url(); ?>barang/export" class="btn cyan waves-effect
-waves-light">Excel <i class="mdi-action-print right"></i></a>
+                        <a href="<?php echo base_url(); ?>barang/export" class="btn cyan waves-effect waves-light">Excel <i class="mdi-action-print right"></i></a>
                         <a class="btn waves-effect waves-light indigo" href="<?=
                                                                                 base_url(); ?>barang/exportPDF">PDF<i class="mdi-action-print right"></i></a>
                         <table id="data-table-simple" class="responsive-table display"
@@ -57,8 +56,9 @@ waves-light">Excel <i class="mdi-action-print right"></i></a>
                                         <td>Rp <?= number_format($barang->harga, 0, ',', '.') ?></td>
                                         <td><?= $barang->stok ?></td>
                                         <td>
-                                            <a href="<?php echo base_url(); ?>barang/ubah/<?= $barang->idBarang
-                                                                                            ?>" rel="tooltip" title="Ubah" style="color:purple"><i class="mdi-editor-bordercolor"></i></a> &nbsp;
+                                            <a href="<?php echo base_url(); ?>barang/ubah/<?= $barang->idBarang ?>" rel="tooltip" title="Ubah" style="color:purple">
+                                                <i class="mdi-editor-border-color"></i>
+                                            </a> &nbsp;
                                         </td>
                                     </tr>
                                 <?php } ?>

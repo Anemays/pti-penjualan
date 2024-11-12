@@ -26,7 +26,7 @@
  <h4 class="header2">Ubah Barang</h4>
  <div class="row">
  <form class="col s12" method="post" enctype="multipart/form-data"
-action="<?php echo base_url();?>barang/ubahBarang/<?= $dataBarang->idBarang; ?>">
+action="<?php echo base_url(); ?>barang/ubahBarang/<?= $dataBarang->idBarang; ?>">
  <div class="row">
  <div class="input-field col s1">
  <input id="id" type="text" name="id" value="<?= $dataBarang->idBarang;

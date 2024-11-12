@@ -22,7 +22,6 @@
                                             <i class="mdi-content-clear icon_style" id="alert_close" ariahidden="true"></i>
                                         </div>
                                     </div>
-                                    38
                                 </div>
                             </div>
                         </div>
@@ -31,8 +30,7 @@
                     <div class="col s12 m8 l11">
                         <a href="<?php echo base_url(); ?>petugas/tambah" class="btn blue ">Tambah<i
                                 class="mdi-av-playlist-add right"></i></a>
-                        <a href="<?php echo base_url(); ?>petugas/export" class="btn cyan waves-effect
-waves-light">Excel<i class="mdi-action-print right"></i></a>
+                        <a href="<?php echo base_url(); ?>petugas/export" class="btn cyan waves-effect waves-light">Excel<i class="mdi-action-print right"></i></a>
                         <a class="btn waves-effect waves-light indigo" href="<?=
                                                                                 base_url(); ?>petugas/exportPDF">PDF<i class="mdi-action-print right"></i></a>
                         <table id="data-table-simple" class="responsive-table display"
